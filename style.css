@@ -1,0 +1,61 @@
+/* Reset margins and paddings for all elements */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;           /* Enable Flexbox */
+  flex-direction: column;  /* Stack children vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center;     /* Center content horizontally */
+  height: 100vh;           /* Make body take up the full viewport height */
+  /* background-color: rgb(157, 157, 215); */
+  background:linear-gradient(rgb(228, 146, 228),rgb(129, 129, 224));
+}
+
+h2 {
+  text-align: center;
+  /* margin-top: 30px; */
+  margin-bottom: 50px;
+}
+
+.box1 {
+  height: 460px;
+  width: 600px;
+  background-color: beige;
+  border: 2px solid blue;
+  /* margin: auto;    */
+  /* margin-top: 20px; */
+  margin-bottom: 30px;        
+  text-align: center;     
+}
+
+textarea {
+  height: 420px;
+  width: 560px;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+button {
+  display: block;          /* Make the button a block element */
+  margin: 0 auto;          /* Horizontally center the button */
+  margin-top: 15px;
+  margin-bottom: 30px;
+  height: 30px;
+  width: 160px;
+  border-radius: 3px;
+  font-size: 20px;
+  color: rgb(235, 137, 102);
+}
+.wpm{
+  font-size: 30px;
+}
+span {
+  color: rebeccapurple;
+ font-weight: bold;
+ font-size: 33px;
+}
